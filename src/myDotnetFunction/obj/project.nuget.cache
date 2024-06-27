@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "+kHh13yhBTc0u8SvclJBpLkFxKkgd9wddaSeoEc/L3IOjO/GbjqdPldMTvYhDSmygUxNTnpomUfq1r4wbbec3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Steph\\OneDrive\\Desktop\\Personal\\Personal_Repos\\AWS\\myDotnetFunction\\src\\myDotnetFunction\\myDotnetFunction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Steph\\.nuget\\packages\\amazon.core\\0.12.0\\amazon.core.0.12.0.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\amazon.lambda\\0.12.0\\amazon.lambda.0.12.0.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\amazon.lambda.core\\2.2.0\\amazon.lambda.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.1\\amazon.lambda.serialization.systemtextjson.2.4.1.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\awssdk.core\\3.7.304.20\\awssdk.core.3.7.304.20.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\awssdk.lambda\\3.7.305.41\\awssdk.lambda.3.7.305.41.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\carbon.json\\1.8.0\\carbon.json.1.8.0.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.4\\microsoft.netcore.app.runtime.linux-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.4\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\Steph\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.4\\microsoft.netcore.app.crossgen2.win-x64.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

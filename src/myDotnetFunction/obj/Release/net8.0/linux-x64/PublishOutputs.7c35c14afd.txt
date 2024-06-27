@@ -1,0 +1,11 @@
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\myDotnetFunction.deps.json
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\myDotnetFunction.runtimeconfig.json
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\myDotnetFunction.pdb
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\Amazon.Core.dll
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\Amazon.Lambda.dll
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\Amazon.Lambda.Core.dll
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\AWSSDK.Core.dll
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\AWSSDK.Lambda.dll
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\Carbon.Json.dll
+C:\Users\Steph\OneDrive\Desktop\Personal\Personal_Repos\AWS\myDotnetFunction\src\myDotnetFunction\bin\Release\net8.0\publish\myDotnetFunction.dll

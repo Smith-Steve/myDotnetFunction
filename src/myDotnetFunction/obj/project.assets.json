@@ -1,0 +1,485 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Amazon.Core/0.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Json": "1.8.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda/0.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Core": "0.12.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.304.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Lambda/3.7.305.41": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.304.20, 4.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.Lambda.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Lambda.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Carbon.Json/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Json.dll": {}
+        }
+      },
+      "System.Text.Encodings.Web/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net8.0/linux-x64": {
+      "Amazon.Core/0.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Json": "1.8.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda/0.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Core": "0.12.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.304.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Lambda/3.7.305.41": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.304.20, 4.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.Lambda.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Lambda.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Carbon.Json/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Json.dll": {}
+        }
+      },
+      "System.Text.Encodings.Web/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Core/0.12.0": {
+      "sha512": "k3CCt8dw/TsmhXZU/gSReRks5t2OKfXBFF5/JUODahtwRHeqYvcom0HLmbk7CciqESnQftGbvlk5V8EVxpGfGw==",
+      "type": "package",
+      "path": "amazon.core/0.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.core.0.12.0.nupkg.sha512",
+        "amazon.core.nuspec",
+        "lib/netstandard2.0/Amazon.Core.dll"
+      ]
+    },
+    "Amazon.Lambda/0.12.0": {
+      "sha512": "Jg0z32euWp3V2kgS2VP8x4ZTOkrBU9Hk2lJsZGEDVpV1vd+7O1EnPgIRO2B6TfTXYRdl2bFtPB2id498IxEFeQ==",
+      "type": "package",
+      "path": "amazon.lambda/0.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.0.12.0.nupkg.sha512",
+        "amazon.lambda.nuspec",
+        "lib/netstandard2.0/Amazon.Lambda.dll"
+      ]
+    },
+    "Amazon.Lambda.Core/2.2.0": {
+      "sha512": "DHqKeD1CYocP0t1dJC/NaXfu+5k6AoqnQ1Hlu/J2mXpLpCyeJfY+tIqT5fpruDarUlU0NtdIH8zSkCjeinyb1A==",
+      "type": "package",
+      "path": "amazon.lambda.core/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "amazon.lambda.core.2.2.0.nupkg.sha512",
+        "amazon.lambda.core.nuspec",
+        "lib/net6.0/Amazon.Lambda.Core.dll",
+        "lib/net6.0/Amazon.Lambda.Core.xml",
+        "lib/net8.0/Amazon.Lambda.Core.dll",
+        "lib/net8.0/Amazon.Lambda.Core.xml",
+        "lib/netstandard2.0/Amazon.Lambda.Core.dll",
+        "lib/netstandard2.0/Amazon.Lambda.Core.xml"
+      ]
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.4.1": {
+      "sha512": "X06Z8zPDZJS/xAoAntSqsxOoSSKKFJMg+0QGPRtlPt1mbP19HFXlXn+q+XqHdVWWFsiH/r7KbDIICr0nsrlwug==",
+      "type": "package",
+      "path": "amazon.lambda.serialization.systemtextjson/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "amazon.lambda.serialization.systemtextjson.2.4.1.nupkg.sha512",
+        "amazon.lambda.serialization.systemtextjson.nuspec",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.xml",
+        "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.xml",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
+      ]
+    },
+    "AWSSDK.Core/3.7.304.20": {
+      "sha512": "6q29LzuKypEscPqXrCNL8VN1xraBiFGGvltn27/qLpC0jbdeKGDf5tYX0S/TSuKo66ZCFAlM/7OI72TIBvHUjA==",
+      "type": "package",
+      "path": "awssdk.core/3.7.304.20",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.304.20.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/net8.0/AWSSDK.Core.dll",
+        "lib/net8.0/AWSSDK.Core.pdb",
+        "lib/net8.0/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.Lambda/3.7.305.41": {
+      "sha512": "aaO6nQBCTUy5xs2OHKHwBEkXans/cTnku5jjkUTlNnqF0PbWz+WrK0TL9G0nd+U0G5UoxU7jeK5e1yhhCjkANA==",
+      "type": "package",
+      "path": "awssdk.lambda/3.7.305.41",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Lambda.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.lambda.3.7.305.41.nupkg.sha512",
+        "awssdk.lambda.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Lambda.dll",
+        "lib/net35/AWSSDK.Lambda.pdb",
+        "lib/net35/AWSSDK.Lambda.xml",
+        "lib/net45/AWSSDK.Lambda.dll",
+        "lib/net45/AWSSDK.Lambda.pdb",
+        "lib/net45/AWSSDK.Lambda.xml",
+        "lib/net8.0/AWSSDK.Lambda.dll",
+        "lib/net8.0/AWSSDK.Lambda.pdb",
+        "lib/net8.0/AWSSDK.Lambda.xml",
+        "lib/netcoreapp3.1/AWSSDK.Lambda.dll",
+        "lib/netcoreapp3.1/AWSSDK.Lambda.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Lambda.xml",
+        "lib/netstandard2.0/AWSSDK.Lambda.dll",
+        "lib/netstandard2.0/AWSSDK.Lambda.pdb",
+        "lib/netstandard2.0/AWSSDK.Lambda.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Carbon.Json/1.8.0": {
+      "sha512": "2nnL6V7AUowcRbqDO0Owu48/0gOrxN2wqvdA8GR3YOb/T+dQfRhnBFvYbvGefMcNr2lAM6up6l+GkcB0UggWuw==",
+      "type": "package",
+      "path": "carbon.json/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.json.1.8.0.nupkg.sha512",
+        "carbon.json.nuspec",
+        "lib/netstandard2.0/Carbon.Json.dll"
+      ]
+    },
+    "System.Text.Encodings.Web/4.5.0": {
+      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.5.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AWSSDK.Lambda >= 3.7.305.41",
+      "Amazon.Lambda >= 0.12.0",
+      "Amazon.Lambda.Core >= 2.2.0",
+      "Amazon.Lambda.Serialization.SystemTextJson >= 2.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Steph\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Steph\\OneDrive\\Desktop\\Personal\\Personal_Repos\\AWS\\myDotnetFunction\\src\\myDotnetFunction\\myDotnetFunction.csproj",
+      "projectName": "myDotnetFunction",
+      "projectPath": "C:\\Users\\Steph\\OneDrive\\Desktop\\Personal\\Personal_Repos\\AWS\\myDotnetFunction\\src\\myDotnetFunction\\myDotnetFunction.csproj",
+      "packagesPath": "C:\\Users\\Steph\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Steph\\OneDrive\\Desktop\\Personal\\Personal_Repos\\AWS\\myDotnetFunction\\src\\myDotnetFunction\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "AWSSDK.Lambda": {
+            "target": "Package",
+            "version": "[3.7.305.41, )"
+          },
+          "Amazon.Lambda": {
+            "target": "Package",
+            "version": "[0.12.0, )"
+          },
+          "Amazon.Lambda.Core": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Amazon.Lambda.Serialization.SystemTextJson": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+            "version": "[8.0.4, 8.0.4]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+            "version": "[8.0.4, 8.0.4]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+            "version": "[8.0.4, 8.0.4]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "linux-x64": {
+        "#import": []
+      }
+    }
+  }
+}
